@@ -3,7 +3,7 @@ version: 2.1
 executors:
   build-image:
     docker:
-      - image: eu.gcr.io/mgcp-infrastructure/toolbox:latest
+      - image: eu.gcr.io/mgcp-infrastructure/toolbox:latest 
 
 commands:
   init_script:

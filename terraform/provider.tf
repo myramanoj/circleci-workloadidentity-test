@@ -9,13 +9,13 @@ provider "google-beta" {
 }
 
 terraform {
-  required_version = "1.3.9"
+  required_version = "1.3.7"
   required_providers {
     google = {
-      version = "4.48.0"
+      version = "4.31.0"
     }
     google-beta = {
-      version = "4.48.0"
+      version = "4.31.0"
     }
   }
 }

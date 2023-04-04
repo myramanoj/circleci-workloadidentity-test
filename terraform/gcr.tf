@@ -1,5 +1,6 @@
-resource "google_container_registry" "prod_indep_eu_registry" {
-  project  = var.project_id
-  name     = "test"
-  location = "EU"
+resource "google_artifact_registry_repository" "my-repo" {
+  location      = "us-central1"
+  repository_id = "test"
+  description   = "example docker repository"
+  format        = "DOCKER"
 }

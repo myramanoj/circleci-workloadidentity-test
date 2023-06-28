@@ -1,7 +1,7 @@
 resource "google_monitoring_alert_policy" "alert_policy_nat_alloc_fail" {
   display_name          = "Nat Allocation Failed"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = " This runbook is used define nat allocation"
   }

@@ -3,7 +3,7 @@
 resource "google_monitoring_alert_policy" "alert_policy" {
   display_name          = "GCE Disk Usage"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = "This is test runbook for GCP Alerting"
   }
@@ -29,7 +29,7 @@ resource "google_monitoring_alert_policy" "alert_policy" {
 resource "google_monitoring_alert_policy" "alert_policy_gce_mem" {
   display_name          = "GCE Mem Usage"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = " This is test Runbook for GCE Mem alerting"
   }
@@ -55,7 +55,7 @@ resource "google_monitoring_alert_policy" "alert_policy_gce_mem" {
 resource "google_monitoring_alert_policy" "alert_policy_gce_cpu" {
   display_name          = "GCE CPU Usage"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = "This is test Runbook for GCE CPU alerting"
   }

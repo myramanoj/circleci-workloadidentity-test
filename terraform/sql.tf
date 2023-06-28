@@ -2,7 +2,7 @@
 resource "google_monitoring_alert_policy" "alert_policy_sql_cpu" {
   display_name          = "SQL CPU Usage"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = "This runbook is used define SQL CPU utilization"
   }
@@ -28,7 +28,7 @@ resource "google_monitoring_alert_policy" "alert_policy_sql_cpu" {
 resource "google_monitoring_alert_policy" "alert_policy_sql_mem" {
   display_name          = "SQL Mem Usage"
   combiner              = "OR"
-  notification_channels = ["projects/de-manoj-kumar/notificationChannels/13570824548837170415"]
+  notification_channels = ["projects/helical-gist-265910/notificationChannels/3318454772737097293"]
   documentation {
     content = "This runbook is used define SQL Mem utilization"
   }
